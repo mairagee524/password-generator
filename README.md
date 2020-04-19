@@ -1,8 +1,8 @@
 # Password-Generator
 
-This project is able to generate a password on solely user input. 
+This application is able to generate a password on solely user input. 
 
-When the user goes to the site, he/she/they will be able to click on the `generate` button, where a series of prompt and confirm pop-ups will appear in the center of the screen. 
+When the user goes to the site, he/she/they will be able to click on the "generate" button, where a series of 'prompt' and 'confirm' pop-ups will appear in the center of the screen. 
 
 ## Prompts
 
@@ -33,7 +33,8 @@ For the `confirm` questions, the user has the option to choose 1, 2, 3, or all c
 
 I declared the `lowercase`, `uppercase`, `numbers`, and `specialCharacters` variables with the appropriate strings. I added the `split` command after each string so that each individual character becomes its own string. I also declared a `result` variable so that the final-result generated password can be pushed into the `textContent` of `#password`. Finally I declared some global variables 
 
-```confirmLowercase,
+```
+confirmLowercase,
 confirmUppercase,
 confirmNumbers,
 confirmSpecialCharacters,
@@ -52,7 +53,8 @@ That preliminary password goes through another for-loop to reduce the number of 
 
 Finally, I added the command `join` after `together`, like so
 
-```result.textContent = together.join('');  
+```
+result.textContent = together.join('');  
 ```
  
 to bring the individual strings together as one, and pushed the `textContent` to the `#password`. The user must now be able to see the newly-generated password in the white box. 
