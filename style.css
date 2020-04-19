@@ -13,8 +13,9 @@ body,
 }
 
 body {
-  font-family: sans-serif;
-  background-color: #f9fbfd;
+  font-family: 'Baloo Bhaina 2', cursive;
+  background-color: #b5cee7;
+  text-align: center;
 }
 
 .wrapper {
@@ -31,7 +32,7 @@ header {
 }
 
 .card {
-  background-color: hsl(0, 0%, 100%);
+  background-color: hsl(177, 66%, 73%);
   border-radius: 5px;
   border-width: 1px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
@@ -74,7 +75,7 @@ header {
 
 .btn {
   border: none;
-  background-color: hsl(360, 91%, 36%);
+  background-color: rgb(233, 132, 194);
   border-radius: 25px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
     0px;
@@ -86,6 +87,12 @@ header {
   padding: 14px 34px;
   text-align: center;
   cursor: pointer;
+  font-family: 'Baloo Bhaina 2', cursive;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  background-color: #0f7e9b;
 }
 
 button[disabled] {
@@ -104,7 +111,7 @@ button[disabled] {
   border: none;
   display: block;
   width: 100%;
-  padding-top: 15px;
+  padding-top: 70px;
   padding-left: 15px;
   padding-right: 15px;
   padding-bottom: 85px;
@@ -112,10 +119,11 @@ button[disabled] {
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
-  border: 2px dashed #c0c7cf;
+  border: 2px dashed #9cadc0;
   border-radius: 6px;
   resize: none;
   overflow: hidden;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 @media (max-width: 690px) {
